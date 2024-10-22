@@ -3,7 +3,8 @@
 #include <time.h>
 /**
 * main - assign a random number to the variable n.
-* Return: 0
+* betty style doc for function main goes there.
+* Return: Always 0
 */
 int main(void)
 {
