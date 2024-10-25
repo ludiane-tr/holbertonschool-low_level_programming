@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <math.h>
 /**
-*main - write a function that computes the absolute value.
-*@n: parameter.
-*Return: The absolute value of the integer.
+ *_abs - write a function that computes the absolute value.
+ *@n: parameter.
+ *Return: The absolute value of the integer.
 */
-int main(int n)
+int _abs(int n)
 {
 	if (n >= 0)
 		return (n);
