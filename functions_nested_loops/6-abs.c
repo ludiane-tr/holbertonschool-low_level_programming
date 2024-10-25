@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 /**
-*_abs - write a function that computes the absolute value.
+*int_abs - write a function that computes the absolute value.
 *@n: parameter.
 */
 int _abs(int n)
