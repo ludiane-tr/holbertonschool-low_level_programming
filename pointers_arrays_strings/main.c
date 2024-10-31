@@ -6,7 +6,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int main(char *str)
 {
     char *str;
     int len;
