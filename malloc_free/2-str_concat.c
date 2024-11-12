@@ -4,9 +4,9 @@
 
 /**
 * *str_concat - check the code
-* @s1:parameters
-* @s2:paramaters 
-* Return: Always 0.
+* @s1: parameters
+* @s2: paramaters
+* Return:0
 */
 char *str_concat(char *s1, char *s2)
 {

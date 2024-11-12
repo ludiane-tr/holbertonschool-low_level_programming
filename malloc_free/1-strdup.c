@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * *_strdup - write a function that returns a pointer
- * @*str: parameters
+ * @str: parameters
  * Return: a pointer
  */
 char *_strdup(char *str)
