@@ -9,12 +9,17 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int index = 0, dest_len = 0;// dest len est une variable qui stocke la longueur de dest qui est l'endroit où src sera ajouté
+	int i, c;
 
-	while (dest[index++])// récupère la taille de dest et parcoure chaque caractère avec l'index
-		dest_len++;// la boucle continue tant que le caractère nul n'est pas atteint.
+	for (i = 0; dest[i] != '\0'; i++)
+		;
 
-	for (index = 0; src[index]; index++)//récupérer la taille de src
-		dest[dest_len++] = src[index];// copier les caractères de src dans dest à partir de la position dest_len
+	for (c = 0; src[c] != '\0'; c++)
+	{
+		dest[i] = src[c];
+		i++;
+	}
+
+	dest[i] = '\0';
 	return (dest);
 }
