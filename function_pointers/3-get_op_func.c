@@ -1,7 +1,4 @@
 #include "3-calc.h"
-#include <stddef.h>
-#include <stdio.h>
-
 /**
  * get_op_func - Calls function to perform arithmetic operation
  * between 2 numbers bases on an operator
