@@ -11,14 +11,14 @@ void print_all(const char * const format, ...)
 	va_list args;
 	unsigned int i = 0;
 	char *str;
-	char sep = 0; 
+	char sep = 0;
 
 	va_start(args, format);
 
-	while (format && format[i]) 
+	while (format && format[i])
 	{
 		if (sep)
-			printf(", "); 
+			printf(", ");
 
 		switch (format[i])
 		{
